@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+ .navbar{
+   margin-bottom: 0px;
+ }
+
+ .navbar-default {
+   border-style: none;
+   background-color: white;
+ }
+
+ .jumbotron {
+   background:url(main.jpg) center no-repeat;
+   background-size: cover;
+   height: 440px;
+
+   h1 {
+     color: white;
+     font-size: 54px;
+     letter-spacing: 12px;
+     text-align: center;
+     margin: 120px 0px;
+     text-shadow: 0px 0px 8px #666;
+   }
+ }
