@@ -1,0 +1,34 @@
+!!!
+%html
+  %head
+    %meta(name='keywords' content="海,サーフィン,海水浴,ドライブ 海,海岸,海釣り")
+    %meta(name='description' content="海好きな管理人が提供する、海についての情報サイトです。")
+    %title= "Seamania"
+
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = favicon_link_tag       '/img/favicon.ico'
+    = csrf_meta_tags
+
+  %body
+    %header
+      -# %div
+      -#   .logo
+      -#     %a(href='/')
+      -#       %img(alt='' src='/img/logo.png')/
+      -# %nav
+      -#   %ul
+      -#     %li
+      -#       = link_to 'マイページ', '/', class: 'js-hover'
+      -#     %li
+      -#       = link_to 'レジュメ', '/', class: 'js-hover'
+      -#     %li
+      -#       = link_to 'ヘッドハンター検索', '/', class: 'js-hover'
+      -#     %li
+      -#       = link_to '求人情報検索', '/', class: 'js-hover'
+      -#     %li
+      -#       = link_to '設 定', '/', class: 'js-hover'
+
+    .wrapper
+      .content
+        = yield
