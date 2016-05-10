@@ -24,8 +24,7 @@
  }
 
  .jumbotron {
-   background-image: image-url("main.jpg");
-   background: center no-repeat;
+   background: image_url("main.jpg") center no-repeat;
    background-size: cover;
    height: 440px;
 
@@ -36,5 +35,13 @@
      text-align: center;
      margin: 120px 0px;
      text-shadow: 0px 0px 8px #666;
+   }
+ }
+
+ .container {
+   .row {
+     .adsense {
+      text-align: center;
+     }
    }
  }
