@@ -16,6 +16,7 @@ gem 'haml-rails'
 gem 'execjs'
 gem 'twitter-bootstrap-rails'
 gem 'therubyracer', :platform => :ruby
+gem 'seed-fu'
 
 group :production do
   gem 'mysql2'
