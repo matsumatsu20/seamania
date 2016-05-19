@@ -1,5 +1,18 @@
-.jumbotron
-  .container
-    %h1
-      海好きの管理人が準備中です。
-    -# = link_to 'Learn more', class: 'btn btn-primary btn-lg'
+%section
+  %h2 ランキング
+  .row
+    -@ranking.each.with_index(1) do |beach, i|
+      .col-lg-4
+        %span.badge #{i}
+        =beach.name
+
+%section
+  %h2 新着情報
+  -@new_arrival.each do |beach|
+    .panel.panel-default
+      .panel-body
+        .row
+          .col-lg-4
+          .col-lg-8
+            %h4=beach.name
+            %p=beach.description

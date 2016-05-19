@@ -41,25 +41,25 @@
 
     .container
       .row
-        -if Rails.env.production?
-          .adsense
-            %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-            / メインバナー
-            %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9469274116", :style => "display:inline-block;width:728px;height:90px"}
-            :javascript
-              (adsbygoogle = window.adsbygoogle || []).push({});
+        .col-lg-9
+          -if Rails.env.production?
+            .adsense
+              %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+              / メインバナー
+              %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9469274116", :style => "display:inline-block;width:728px;height:90px"}
+              :javascript
+                (adsbygoogle = window.adsbygoogle || []).push({});
 
-        -# .col-lg-9
-        -#   = bootstrap_flash
-        -#   = yield
-        -# .col-lg-3
-        -#   .well.sidebar-nav
-        -#     %h3 Sidebar
-        -#     %ul.nav.nav-list
-        -#       %li.nav-header Sidebar
-        -#       %li= link_to "Link 1", "/path1"
-        -#       %li= link_to "Link 2", "/path2"
-        -#       %li= link_to "Link 3", "/path3"
+          = bootstrap_flash
+          = yield
+        .col-lg-3
+          .well.sidebar-nav
+            %h3 Sidebar
+            %ul.nav.nav-list
+              %li.nav-header Sidebar
+              %li= link_to "Link 1", "/path1"
+              %li= link_to "Link 2", "/path2"
+              %li= link_to "Link 3", "/path3"
       %footer
         %p &copy; Yuki Matsuyama 2016
 
