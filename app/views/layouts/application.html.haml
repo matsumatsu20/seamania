@@ -25,7 +25,7 @@
           %span.icon-bar
           %span.icon-bar
           %span.icon-bar
-        %a.navbar-brand(href="#") Seamania
+        %a.navbar-brand.logo(href="#") Seamania
         .navbar-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav
             -# %li= link_to "Link 1", "/path1"
@@ -41,7 +41,7 @@
 
     .container
       .row
-        .col-lg-9
+        .col-lg-9.col-md-9.col-sm-9
           -if Rails.env.production?
             .adsense
               %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
@@ -52,15 +52,15 @@
 
           = bootstrap_flash
           = yield
-        .col-lg-3
-          .well.sidebar-nav
-            %h3 Sidebar
-            %ul.nav.nav-list
-              %li.nav-header Sidebar
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
-      %footer
+        .col-lg-3.col-md-3.col-sm-3
+          .sidebar-nav
+            %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+            / サイドバー
+            %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9218484915", :style => "display:inline-block;width:300px;height:600px"}
+            :javascript
+              (adsbygoogle = window.adsbygoogle || []).push({});
+    %footer
+      .container
         %p &copy; Yuki Matsuyama 2016
 
     -if Rails.env.production?

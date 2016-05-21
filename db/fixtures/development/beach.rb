@@ -1,10 +1,10 @@
 Beach.seed do |b|
   b.id          = 1
-  b.name        = "適当海岸"
-  b.description = "適当な海岸です"
-  b.address     = "東京都青梅市日本橋"
-  b.latitude    = 35.681368
-  b.longitude   = 139.766076
+  b.name        = "由比ヶ浜"
+  b.description = "鎌倉駅から徒歩で15分ほど歩いたところにある海水浴場。東京都心部からのアクセスもよく、大勢の人々で賑わう。"
+  b.address     = "神奈川県鎌倉市由比ガ浜四丁目または長谷二丁目"
+  b.latitude    = 35.309286
+  b.longitude   = 139.541817
   b.parking     = "有（有料）"
 end
 

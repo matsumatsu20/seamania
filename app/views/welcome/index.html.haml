@@ -1,18 +1,22 @@
 %section
-  %h2 ランキング
-  .row
+  %h2.futura.mb20 Ranking
+  .row.m-t-0
     -@ranking.each.with_index(1) do |beach, i|
-      .col-lg-4
-        %span.badge #{i}
-        =beach.name
-
+      .col-lg-4.col-md-4.col-sm-4
+        %span.badge-red #{i}
+        =link_to beach.name, "/", class: "blue-link pl05"
+        .thumbnail.img-responsive.thumb-top
+          = image_tag(beach.photos.first.url , alt: beach.name)
 %section
-  %h2 新着情報
+  %h2.futura.mb20 Whats New
   -@new_arrival.each do |beach|
     .panel.panel-default
       .panel-body
         .row
-          .col-lg-4
-          .col-lg-8
-            %h4=beach.name
+          .col-lg-4.col-md-4.col-sm-4
+            .thumbnail.img-responsive.thumb-top
+              = image_tag(beach.photos.first.url , alt: beach.name)
+          .col-lg-8.col-md-8.col-sm-8
+            %h4=link_to beach.name, "/", class: "blue-link"
+            -# %h4.ranking-top=beach.name
             %p=beach.description
