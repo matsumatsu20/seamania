@@ -4,6 +4,7 @@ class CreatePhotos < ActiveRecord::Migration
       t.integer :beach_id, null: false
       t.text :url, null: false
       t.text :thumbnail_url
+      t.string :source
 
       t.timestamps null: false
     end

@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20160517151005) do
     t.integer  "beach_id",      null: false
     t.text     "url",           null: false
     t.text     "thumbnail_url"
+    t.string   "source"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
