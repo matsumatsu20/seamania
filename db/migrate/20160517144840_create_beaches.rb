@@ -4,8 +4,8 @@ class CreateBeaches < ActiveRecord::Migration
       t.string :name, null: false
       t.string :description
       t.string :address
-      t.decimal :latitude, precision: 3, scale: 6
-      t.decimal :longitude, precision: 3, scale: 6
+      t.decimal :latitude, precision: 9, scale: 6
+      t.decimal :longitude, precision: 9, scale: 6
       t.string :parking
 
       t.timestamps null: false
