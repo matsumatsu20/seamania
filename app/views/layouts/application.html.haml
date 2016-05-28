@@ -16,28 +16,26 @@
     / Le HTML5 shim, for IE6-8 support of HTML elements
     /[if lt IE 9]
       = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"
+    %script{:src => "//maps.google.com/maps/api/js?v=3.23&sensor=false&client=&key=&libraries=geometry&language=&hl=&region="}
+    %script{:src => "//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"}
+    %script{:src => "//cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js", :type => "text/javascript"}
 
 
   %body
     .navbar.navbar-default.navbar-static-top
       .container
-        %button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse")
-          %span.icon-bar
-          %span.icon-bar
-          %span.icon-bar
-        %a.navbar-brand.logo(href="#") Seamania
+        %a.navbar-brand.logo(href="/") Seamania
         .navbar-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav
             -# %li= link_to "Link 1", "/path1"
             -# %li= link_to "Link 2", "/path2"
             -# %li= link_to "Link 3", "/path3"
             -# %li= link_to "Link 3", "/path3"
-
-    .jumbotron
-      .container
-        %h1
-          海好きの管理人が準備中です。
-
+    - if controller_name == "welcome"
+      .jumbotron
+        .container
+          %h1
+            海好きの管理人が準備中です。
 
     .container
       .row
@@ -54,11 +52,12 @@
           = yield
         .col-lg-3.col-md-3.col-sm-3
           .sidebar-nav
-            %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-            / サイドバー
-            %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9218484915", :style => "display:inline-block;width:300px;height:600px"}
-            :javascript
-              (adsbygoogle = window.adsbygoogle || []).push({});
+            -if Rails.env.production?
+              %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+              / サイドバー
+              %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9218484915", :style => "display:inline-block;width:300px;height:600px"}
+              :javascript
+                (adsbygoogle = window.adsbygoogle || []).push({});
     %footer
       .container
         %p &copy; Yuki Matsuyama 2016

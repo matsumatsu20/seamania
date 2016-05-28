@@ -2,6 +2,39 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.jumbotron {
+  background: image_url("main.jpg") center no-repeat;
+  background-size: cover;
+  height: 440px;
+
+  h1 {
+    color: white;
+    font-size: 54px;
+    letter-spacing: 12px;
+    text-align: center;
+    margin: 120px 0px;
+    text-shadow: 0px 0px 8px #666;
+  }
+}
+
+/* SP対応 */
+@media (max-width: 767px) {
+  .jumbotron {
+    background: image_url("main.jpg") center no-repeat;
+    background-size: cover;
+    height: 200px;
+
+    h1 {
+      color: white;
+      font-size: 30px;
+      letter-spacing: 12px;
+      text-align: center;
+      margin: 30px 0px;
+      text-shadow: 0px 0px 8px #666;
+    }
+  }
+}
+
 .badge-red {
   display: inline-block;
   min-width: 10px;
@@ -23,7 +56,7 @@
 }
 
 .blue-link {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #06a8d7;
 }

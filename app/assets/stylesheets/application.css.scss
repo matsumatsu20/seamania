@@ -13,15 +13,46 @@
  *= require_tree .
  *= require_self
  */
-footer {
-  background-color: #06a8d7;
-  padding-top: 10px;
-  text-align: right;
-  p {
-    color: white;
+@import "gmap4rails";
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+// 全体の設定
+body {
+  font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+  font-size: 16px;
+  line-height: 2.15;
+  letter-spacing: 0.2em;
+}
+
+h2, h3 {
+  color: #555555;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+hr.sea {
+  margin-top: 10px;
+  border-top: 3px solid #06a8d7;
+}
+
+a {
+  color: #06a8d7;
+  &:hover {
+    color: #047da1;
+  }
+
+  img {
+    transition: 0.3s ease-in-out;
+    &:hover {
+      opacity: 0.3;
+    }
   }
 }
 
+// header周りの設定
 .navbar{
  margin-bottom: 0px;
 }
@@ -31,44 +62,27 @@ footer {
  background-color: white;
 }
 
-.jumbotron {
-  background: image_url("main.jpg") center no-repeat;
-  background-size: cover;
-  height: 440px;
-
-  h1 {
-    color: white;
-    font-size: 54px;
-    letter-spacing: 12px;
-    text-align: center;
-    margin: 120px 0px;
-    text-shadow: 0px 0px 8px #666;
-  }
-}
-
-.container {
-  .row {
-    .adsense {
-      text-align: center;
-    }
-  }
-}
-
-.section {
-  margin-bottom: 20px;
-}
-
-
 .logo {
   font-size: 24px;
   font-family: "Futura",Arial,sans-serif;
   color: #06a8d7 !important;
 }
 
-.margin-bottom-20 {
-  margin-bottom: 20px;
+// footer周りの設定
+footer {
+  background-color: #06a8d7;
+  padding-top: 10px;
+  text-align: right;
+  p {
+    color: white;
+  }
 }
 
-.padding-left-5 {
-  padding-left: 5px;
+// 広告周りの設定
+.container {
+  .row {
+    .adsense {
+      text-align: center;
+    }
+  }
 }

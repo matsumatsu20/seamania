@@ -24,7 +24,7 @@ Beach.seed do |b|
   b.name        = "銚子マリーナ海水浴場"
   b.description = "東洋のドーバーと言われる屏風ケ浦を前面に眺めながらの波の静かな海水浴場。落ち着いた雰囲気で小さなお子様連れのご家族にもオススメの海水浴場です。"
   b.address     = "千葉県銚子市若宮町１-１"
-  b.latitude    = 35.6992909
-  b.longitude   = 140.8312433
+  b.latitude    = 35.7072961
+  b.longitude   = 140.8368453
   b.parking     = "有（有料）"
 end

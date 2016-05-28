@@ -4,9 +4,9 @@
     -@ranking.each.with_index(1) do |beach, i|
       .col-lg-4.col-md-4.col-sm-4
         %span.badge-red #{i}
-        =link_to beach.name, "/", class: "blue-link pl05"
+        =link_to beach.name, beach_path(beach), class: "blue-link pl05"
         .thumbnail.img-responsive.thumb-top
-          = image_tag(beach.photos.first.url , alt: beach.name)
+          =link_to image_tag(beach.photos.first.url , alt: beach.name), beach_path(beach)
 %section
   %h2.futura.mb20 Whats New
   -@new_arrival.each do |beach|
@@ -15,8 +15,8 @@
         .row
           .col-lg-4.col-md-4.col-sm-4
             .thumbnail.img-responsive.thumb-top
-              = image_tag(beach.photos.first.url , alt: beach.name)
+              =link_to image_tag(beach.photos.first.url , alt: beach.name), beach_path(beach)
           .col-lg-8.col-md-8.col-sm-8
-            %h4=link_to beach.name, "/", class: "blue-link"
+            %h4=link_to beach.name, beach_path(beach), class: "blue-link"
             -# %h4.ranking-top=beach.name
             %p=beach.description

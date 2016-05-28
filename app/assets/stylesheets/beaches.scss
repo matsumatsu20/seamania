@@ -1,0 +1,29 @@
+// Place all the styles related to the beaches controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+p.detail {
+  margin-top: 10px;
+}
+
+.map-container {
+  margin: 10px 0px;
+}
+
+#map {
+  height: 200px;
+}
+
+/* PC対応 */
+@media (min-width: 768px) {
+  #map {
+    height: 400px;
+  }
+}
+
+/* SP対応 */
+@media (max-width: 767px) {
+  #map {
+    height: 300px;
+  }
+}
