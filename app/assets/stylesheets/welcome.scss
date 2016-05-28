@@ -20,17 +20,10 @@
 /* SP対応 */
 @media (max-width: 767px) {
   .jumbotron {
-    background: image_url("main.jpg") center no-repeat;
-    background-size: cover;
     height: 200px;
 
     h1 {
-      color: white;
       font-size: 30px;
-      letter-spacing: 12px;
-      text-align: center;
-      margin: 30px 0px;
-      text-shadow: 0px 0px 8px #666;
     }
   }
 }
