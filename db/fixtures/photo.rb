@@ -15,3 +15,15 @@ Photo.seed do |p|
   p.url = 'https://s3-ap-northeast-1.amazonaws.com/seamania/beach/3/choshi-marina.jpg'
   p.source = 'http://www.choshikanko.com/blog_attendant/index.php?e=527'
 end
+
+Photo.seed do |p|
+  p.beach_id = 4
+  p.url = 'https://s3-ap-northeast-1.amazonaws.com/seamania/beach/4/main.jpg'
+  p.source = 'https://s3-ap-northeast-1.amazonaws.com/seamania/beach/3/choshi-marina.jpg'
+end
+
+Photo.seed do |p|
+  p.beach_id = 5
+  p.url = 'https://s3-ap-northeast-1.amazonaws.com/seamania/beach/5/main.jpg'
+  p.source = 'http://www.mapfan.com/spotdetail.cgi?SPOTCODE=S14KID'
+end
