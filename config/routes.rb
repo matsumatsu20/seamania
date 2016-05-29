@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
-  resources :beaches, only: %i(show)
+  resources :beaches, only: %i(index show)
 
   unless Rails.env.development?
     match '/', to: 'application#render_404', via: :post
