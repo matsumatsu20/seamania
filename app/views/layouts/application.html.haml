@@ -40,11 +40,23 @@
     .container
       .row
         .col-lg-9.col-md-9.col-sm-9
-          -if Rails.env.production?
+          -if Rails.env.development?
             .adsense
+              -# %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+              -# / スマホバナー
+              -# %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "5617923315", :style => "display:inline-block;width:320px;height:100px"}
+              -# :javascript
+              -#   (adsbygoogle = window.adsbygoogle || []).push({});
+
+              -# %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+              -# / メインバナー
+              -# %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9469274116", :style => "display:inline-block;width:728px;height:90px"}
+              -# :javascript
+              -#   (adsbygoogle = window.adsbygoogle || []).push({});
+
               %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-              / メインバナー
-              %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9469274116", :style => "display:inline-block;width:728px;height:90px"}
+              / レスポンシブ広告
+              %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-format" => "auto", "data-ad-slot" => "4339666512", :style => "display:block"}
               :javascript
                 (adsbygoogle = window.adsbygoogle || []).push({});
 
