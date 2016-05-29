@@ -18,6 +18,7 @@ gem 'twitter-bootstrap-rails'
 gem 'therubyracer', :platform => :ruby
 gem 'seed-fu'
 gem "gmaps4rails"
+gem "gretel"
 
 group :production do
   gem 'mysql2'

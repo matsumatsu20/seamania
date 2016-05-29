@@ -79,6 +79,8 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     gmaps4rails (2.1.2)
+    gretel (3.0.8)
+      rails (>= 3.2.0)
     haml (4.0.7)
       tilt
     haml-rails (0.9.0)
@@ -247,6 +249,7 @@ DEPENDENCIES
   factory_girl_rails
   fuubar
   gmaps4rails
+  gretel
   haml-rails
   jbuilder (~> 2.0)
   jquery-rails
