@@ -9,7 +9,7 @@ module ErrorsSupport
 
     def render_404(e = nil)
       logger.info "Rendering 404 with exception: #{e.message}" if e
-      render template: 'errors/error_404', layout: false, status: 404
+      render template: 'errors/error_404', status: 404
     end
 
     # def render_500(e = nil)
