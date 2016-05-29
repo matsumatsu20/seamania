@@ -18,5 +18,5 @@
               =link_to image_tag(beach.photos.first.url , alt: beach.name), beach_path(beach)
           .col-lg-8.col-md-8.col-sm-8
             %h4=link_to beach.name, beach_path(beach), class: "blue-link"
-            -# %h4.ranking-top=beach.name
-            %p=beach.description
+            %p=beach.description.truncate(100)
+            %p.ar= link_to '>>詳細', beach_path(beach)
