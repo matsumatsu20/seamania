@@ -51,13 +51,7 @@
           = bootstrap_flash
           = yield
         .col-lg-3.col-md-3.col-sm-3
-          .sidebar-nav
-            -if Rails.env.production?
-              %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-              / サイドバー
-              %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9218484915", :style => "display:inline-block;width:300px;height:600px"}
-              :javascript
-                (adsbygoogle = window.adsbygoogle || []).push({});
+          = render 'layouts/sidebar'
     %footer
       .container
         %p &copy; Yuki Matsuyama 2016
