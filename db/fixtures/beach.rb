@@ -1,3 +1,5 @@
+BeachesPrefecture.delete_all
+
 Beach.seed do |b|
   b.id          = 1
   b.name        = "由比ヶ浜"
@@ -7,6 +9,8 @@ Beach.seed do |b|
   b.longitude   = 139.541817
   b.parking     = "有（有料）"
 end
+
+BeachesPrefecture.create!(beach_id: 1, prefecture_id: 14)
 
 Beach.seed do |b|
   b.id          = 2
@@ -18,6 +22,7 @@ Beach.seed do |b|
   b.parking     = "有（有料）"
 end
 
+BeachesPrefecture.create!(beach_id: 2, prefecture_id: 22)
 
 Beach.seed do |b|
   b.id          = 3
@@ -29,6 +34,8 @@ Beach.seed do |b|
   b.parking     = "有（有料）"
 end
 
+BeachesPrefecture.create!(beach_id: 3, prefecture_id: 12)
+
 Beach.seed do |b|
   b.id          = 4
   b.name        = "逗子海岸海水浴場"
@@ -39,6 +46,8 @@ Beach.seed do |b|
   b.parking     = "有（有料）"
 end
 
+BeachesPrefecture.create!(beach_id: 4, prefecture_id: 14)
+
 Beach.seed do |b|
   b.id          = 5
   b.name        = "大磯サンビーチ海水浴場"
@@ -48,3 +57,5 @@ Beach.seed do |b|
   b.longitude   = 140.568317
   b.parking     = "有（有料）"
 end
+
+BeachesPrefecture.create!(beach_id: 5, prefecture_id: 8)
