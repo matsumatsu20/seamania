@@ -11,6 +11,7 @@
           .col-lg-4.col-md-4.col-sm-4
             .thumbnail.img-responsive.thumb-top
               =link_to image_tag(beach.photos.first.url , alt: beach.name), beach_path(beach)
+              %p.source_thumb= link_to "出典:#{beach.photos.first.source&.truncate(30)}", beach.photos.first.source
           .col-lg-8.col-md-8.col-sm-8
             %h4=link_to beach.name, beach_path(beach), class: "blue-link"
             %p=beach.description.truncate(100)

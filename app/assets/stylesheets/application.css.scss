@@ -52,6 +52,31 @@ a {
   }
 }
 
+p {
+  &.source_main {
+    font-size: 10px;
+    color: #aaaaaa;
+    margin-bottom: 0px;
+    padding: 3px 6px;
+    letter-spacing: 0.1em;
+    a {
+      color: #aaaaaa;
+    }
+  }
+
+  &.source_thumb {
+    font-size: 8px;
+    color: #aaaaaa;
+    background-color: #eeeeee;
+    margin-bottom: 0px;
+    padding: 3px 6px;
+    letter-spacing: 0.1em;
+    a {
+      color: #aaaaaa;
+    }
+  }
+}
+
 // header周りの設定
 .navbar{
  margin-bottom: 0px;

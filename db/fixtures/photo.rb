@@ -1,7 +1,7 @@
 Photo.seed do |p|
   p.beach_id = 1
   p.url = 'https://s3-ap-northeast-1.amazonaws.com/seamania/beach/1/yuigahama.jpg'
-  p.source = ''
+  p.source = 'http://shonan-kaigan.jp/sea_picture/yuigahamakaigan/'
 end
 
 Photo.seed do |p|
