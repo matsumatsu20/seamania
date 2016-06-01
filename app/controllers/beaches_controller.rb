@@ -3,7 +3,7 @@ class BeachesController < ApplicationController
 
   def index
     @beaches = if @prefecture.present?
-      @prefecture.beaches
+      @prefecture.beaches.page(params[:page])
     else
       Beach.all
     end

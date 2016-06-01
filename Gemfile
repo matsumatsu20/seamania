@@ -19,6 +19,7 @@ gem 'therubyracer', :platform => :ruby
 gem 'seed-fu'
 gem "gmaps4rails"
 gem "gretel"
+gem 'kaminari'
 
 group :production do
   gem 'mysql2'

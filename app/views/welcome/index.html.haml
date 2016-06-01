@@ -9,6 +9,7 @@
           =link_to image_tag(beach.photos.first.url , alt: beach.name), beach_path(beach)
 %section
   %h2.futura.mb20 Whats New
+  .ar= paginate @new_arrival
   -@new_arrival.each do |beach|
     .panel.panel-default
       .panel-body
@@ -20,3 +21,4 @@
             %h4=link_to beach.name, beach_path(beach), class: "blue-link"
             %p=beach.description.truncate(100)
             %p.ar= link_to '>>詳細', beach_path(beach)
+  .ar= paginate @new_arrival
