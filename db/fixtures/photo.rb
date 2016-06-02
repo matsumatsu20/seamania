@@ -61,7 +61,7 @@ end
 Photo.seed do |p|
   p.beach_id = 11
   p.url = 'https://s3-ap-northeast-1.amazonaws.com/seamania/beach/11/main.jpg'
-  p.source = 'http://rdsig.yahoo.co.jp/loco/pc/poi/98c3fee387a42040f9cd0cb8a2889214/2c020a58ca12e0fc8512160d0638d20c45b7e54c/RV=1/RE=1464960737/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovLzR0cmF2ZWwuanAvZG9tZXN0aWMvYXJlYS90b3VrYWkvc2hpenVva2EvbWluYW1paXp1L3l1bWlnYWhhbWEvYmVhY2gvMTEzMDkxNDcv/RS=%5EADAg9emcR43RjMzkhwbcnPjYti33VA-'
+  p.source = 'http://rdsig.yahoo.co.jp/'
 end
 
 Photo.seed do |p|
