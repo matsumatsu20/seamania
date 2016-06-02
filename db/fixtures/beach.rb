@@ -59,3 +59,87 @@ Beach.seed do |b|
 end
 
 BeachesPrefecture.create!(beach_id: 5, prefecture_id: 8)
+
+Beach.seed do |b|
+  b.id          = 6
+  b.name        = "守谷海水浴場"
+  b.description = "千葉県勝浦市という首都圏からも交通アクセスのよい場所に位置しているにもかかわらず、「日本の水浴場88選」に選ばれているほど透明度の高い海水浴場。車だけではなく、外房線上総興津駅からも徒歩8分という好立地である。"
+  b.address     = "千葉県勝浦市守谷"
+  b.latitude    = 35.1375
+  b.longitude   = 140.262222
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 6, prefecture_id: 12)
+
+Beach.seed do |b|
+  b.id          = 7
+  b.name        = "城崎海水浴場"
+  b.description = "神明川の河口付近に広がる海水浴場。海水の透明度は南房総一と言われるほど水質に定評がある。約300mにわたって白い砂浜が続いている。波が穏やかで子どもずれにも人気。近くにサーフィンビーチもあり若者を中心に人が集まる。"
+  b.address     = "千葉県鴨川市天津"
+  b.latitude    = 35.1228395
+  b.longitude   = 140.1692441
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 7, prefecture_id: 12)
+
+Beach.seed do |b|
+  b.id          = 8
+  b.name        = "御宿中央海水浴場"
+  b.description = "海岸全体で約800m続く白い砂浜はとてもキメこまかくサラサラ。童謡「月の沙漠」のモデルとなった美しい景観を誇るビーチ。波は穏やかで砂浜に沿っている遊歩道にはパームツリーが植えられ南国ムード満点。"
+  b.address     = "千葉県夷隅郡御宿町須賀"
+  b.latitude    = 35.10566
+  b.longitude   = 140.21178
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 8, prefecture_id: 12)
+
+Beach.seed do |b|
+  b.id          = 9
+  b.name        = "入田浜海水浴場"
+  b.description = "南伊豆に位置する海水浴場で、水質の良さに定評がある。海外沿いにはソテツが植えられており、南国ムードが漂う。波も静かで落ち着いているので、カップル、家族連れにお勧めです。"
+  b.address     = "静岡県下田市吉佐美"
+  b.latitude    = 34.6593889
+  b.longitude   = 138.9233558
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 9, prefecture_id: 22)
+
+Beach.seed do |b|
+  b.id          = 10
+  b.name        = "御座白浜海水浴場"
+  b.description = "志摩半島の先端に位置する海水浴場で、日本の水浴場55選にも選ばれているほど水質が高い。2010で行われた調査では最高品質を示す「AA」と評価された。"
+  b.address     = "三重県志摩市志摩町御座"
+  b.latitude    = 34.2744108
+  b.longitude   = 136.7631302
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 10, prefecture_id: 24)
+
+Beach.seed do |b|
+  b.id          = 11
+  b.name        = "弓ヶ浜海水浴場"
+  b.description = "緩やかに弧を描きながら全長1200mも続く美しい海岸はその形状から弓ヶ浜と名付けられた。遠浅なので、ファミリーやグループにもお勧め。"
+  b.address     = "静岡県賀茂郡南伊豆町湊"
+  b.latitude    = 34.6360217
+  b.longitude   = 138.8909599
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 11, prefecture_id: 22)
+
+Beach.seed do |b|
+  b.id          = 12
+  b.name        = "熱海サンビーチ"
+  b.description = "熱海駅から徒歩15分ほどの場所に位置するビーチ。夜はライトアップ、花火大会など、海水浴だけではなく一年中楽しめる。熱海ということもあって近くに宿も多いので宿泊前提で訪れて、ゆっくり温泉を楽しむのもおすすめである。"
+  b.address     = "静岡県熱海市東海岸町地先"
+  b.latitude    = 35.0983578
+  b.longitude   = 139.0757468
+  b.parking     = "有（有料）"
+end
+
+BeachesPrefecture.create!(beach_id: 12, prefecture_id: 22)
