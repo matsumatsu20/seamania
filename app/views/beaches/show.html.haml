@@ -1,4 +1,7 @@
 - breadcrumb :beaches_detail
+- set_meta_tags title: "#{@beach.name}の詳細情報"
+- set_meta_tags description: "#{@beach.name}の情報をまとめています。海水浴場探しをお手伝いします。"
+- set_meta_tags keywords: default_meta_tags[:keywords] << ", #{@beach.name}"
 
 %h2=@beach.name
 %hr.sea

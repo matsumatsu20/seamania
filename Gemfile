@@ -21,6 +21,10 @@ gem "gmaps4rails"
 gem "gretel"
 gem 'kaminari'
 
+# SEO
+gem 'meta-tags', require: 'meta_tags'
+gem 'sitemap_generator'
+
 group :production do
   gem 'mysql2'
 end

@@ -1,6 +1,10 @@
 - breadcrumb :beaches_index
+- pref_name = @prefecture.present? ? @prefecture.name : '全国'
+- set_meta_tags title: "#{pref_name}の海一覧"
+- set_meta_tags description: "#{pref_name}の海の情報をまとめています。海水浴場探しをお手伝いします。"
+- set_meta_tags keywords: default_meta_tags[:keywords] << ", #{pref_name} 海, #{pref_name} 海水浴場"
 
-%h2.futura.mb20 #{@prefecture.present? ? @prefecture.name : '全国'}の海一覧
+%h2.futura.mb20 #{pref_name}の海一覧
 %hr.sea
 -if @beaches.present?
   .ar= paginate @beaches
