@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<!--  created with free sitemap generation system www.sitemapxml.jp  -->
 <url>
   <loc>http://seamania.info/</loc>
   <priority>1.0</priority>
@@ -33,6 +33,41 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
+  <loc>http://seamania.info/beaches/6</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/7</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/8</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/9</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/10</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/11</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/12</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://seamania.info/beaches?prefecture_id=14</loc>
   <priority>0.8</priority>
   <changefreq>weekly</changefreq>
@@ -49,6 +84,11 @@
 </url>
 <url>
   <loc>http://seamania.info/beaches?prefecture_id=22</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches?prefecture_id=24</loc>
   <priority>0.8</priority>
   <changefreq>weekly</changefreq>
 </url>
