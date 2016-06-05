@@ -275,6 +275,7 @@ DEPENDENCIES
   spring
   sqlite3
   therubyracer
+  thor
   turbolinks
   turnip
   twitter-bootstrap-rails

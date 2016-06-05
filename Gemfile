@@ -20,6 +20,7 @@ gem 'seed-fu'
 gem "gmaps4rails"
 gem "gretel"
 gem 'kaminari'
+gem 'thor'
 
 # SEO
 gem 'meta-tags', require: 'meta_tags'
