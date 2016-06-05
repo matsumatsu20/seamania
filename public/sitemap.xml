@@ -113,6 +113,11 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
+  <loc>http://seamania.info/beaches?prefecture_id=23</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://seamania.info/beaches?prefecture_id=24</loc>
   <priority>0.8</priority>
   <changefreq>weekly</changefreq>
