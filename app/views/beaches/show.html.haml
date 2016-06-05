@@ -27,7 +27,10 @@
     %td=@beach.parking
   %tr
     %td 公式URL
-    %td=link_to @beach.site_url.truncate(30), @beach.site_url, {target: '_blank'}
+    -if @beach.site_url.present?
+      %td=link_to @beach.site_url.truncate(30), @beach.site_url, {target: '_blank'}
+    -else
+      %td
 
 %h3 地図
 %div.map-container
