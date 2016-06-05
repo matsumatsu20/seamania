@@ -68,6 +68,9 @@ Beach.seed do |b|
   b.latitude    = 35.1375
   b.longitude   = 140.262222
   b.parking     = "有（有料）"
+  b.phone_number = "0470-73-6641"
+  b.shower = "有"
+  b.site_url = "http://onjuku-kankou.com/"
 end
 
 BeachesPrefecture.create!(beach_id: 6, prefecture_id: 12)

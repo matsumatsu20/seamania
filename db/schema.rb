@@ -14,14 +14,17 @@
 ActiveRecord::Schema.define(version: 20160517151005) do
 
   create_table "beaches", force: :cascade do |t|
-    t.string   "name",                                null: false
+    t.string   "name",                                 null: false
     t.string   "description"
     t.string   "address"
-    t.decimal  "latitude",    precision: 9, scale: 6
-    t.decimal  "longitude",   precision: 9, scale: 6
+    t.decimal  "latitude",     precision: 9, scale: 6
+    t.decimal  "longitude",    precision: 9, scale: 6
     t.string   "parking"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.string   "site_url"
+    t.string   "shower"
+    t.string   "phone_number"
+    t.datetime "created_at",                           null: false
+    t.datetime "updated_at",                           null: false
   end
 
   create_table "beaches_prefectures", force: :cascade do |t|

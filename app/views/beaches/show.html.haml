@@ -17,8 +17,17 @@
     %td 住所
     %td=@beach.address
   %tr
+    %td 電話番号
+    %td=@beach.phone_number
+  %tr
+    %td シャワー
+    %td=@beach.shower
+  %tr
     %td 駐車場
     %td=@beach.parking
+  %tr
+    %td 公式URL
+    %td=link_to @beach.site_url.truncate(30), @beach.site_url, {target: '_blank'}
 
 %h3 地図
 %div.map-container
