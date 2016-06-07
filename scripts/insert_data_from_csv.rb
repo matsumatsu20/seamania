@@ -32,8 +32,8 @@ class InsertDataFromCsv < Thor
         # TODO ゆくゆくはaws-cliからapi叩いて、画像のアップも自動化したい
         photo = Photo.new(beach_id: beach.id)
         if row[11].present?
-          photo.url = "#{BASE_S3_BEACHES_PATH + beach.id.to}/main.jpg"
-          photo.source = row[12].strip.presence
+          photo.url = "#{BASE_S3_BEACHES_PATH + beach.id.to_s}/main.jpg"
+          photo.source = row[12]&.strip
         else
           photo.url = "#{BASE_S3_BEACHES_PATH}noimage.jpg"
         end
