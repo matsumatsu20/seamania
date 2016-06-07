@@ -93,6 +93,31 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
+  <loc>http://seamania.info/beaches/18</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/19</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/20</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/21</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/22</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://seamania.info/beaches?prefecture_id=14</loc>
   <priority>0.8</priority>
   <changefreq>weekly</changefreq>
