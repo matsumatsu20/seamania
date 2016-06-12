@@ -1,6 +1,6 @@
 Tag.seed do |t|
   t.id   = 1
-  t.name = "ファミリー向け"
+  t.name = "家族におすすめ"
 end
 
 Tag.seed do |t|
@@ -10,15 +10,30 @@ end
 
 Tag.seed do |t|
   t.id   = 3
-  t.name = "年齢層若め"
+  t.name = "若者におすすめ"
 end
 
 Tag.seed do |t|
   t.id   = 4
-  t.name = "音楽禁止"
+  t.name = "カップルにおすすめ"
 end
 
 Tag.seed do |t|
   t.id   = 5
-  t.name = "お酒が飲める"
+  t.name = "夜景も楽しめる"
+end
+
+Tag.seed do |t|
+  t.id   = 6
+  t.name = "磯遊びができる"
+end
+
+Tag.seed do |t|
+  t.id   = 7
+  t.name = "サーフィンにおすすめ"
+end
+
+Tag.seed do |t|
+  t.id   = 8
+  t.name = "ダイビング"
 end
