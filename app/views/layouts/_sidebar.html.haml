@@ -16,9 +16,9 @@
       = link_to tag.name, "/beaches?tag_id=#{tag.id}", {class: 'index-tag'}
 
 
-    -if Rails.env.production?
-      %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-      / サイドバー
-      %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9218484915", :style => "display:inline-block;width:300px;height:600px"}
-      :javascript
-        (adsbygoogle = window.adsbygoogle || []).push({});
+  -if Rails.env.production?
+    %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+    / サイドバー
+    %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9218484915", :style => "display:inline-block;width:300px;height:600px"}
+    :javascript
+      (adsbygoogle = window.adsbygoogle || []).push({});
