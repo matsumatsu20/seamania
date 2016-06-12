@@ -6,6 +6,10 @@
 
 %h2.futura.mb20 #{pref_name}の海一覧
 %hr.sea
+-if @tag.present?
+  %p.tag-block
+    選択中のタグ:
+    = link_to @tag.name, "/beaches?tag_id=#{@tag.id}", {class: 'index-tag'}
 -if @beaches.present?
   .ar= paginate @beaches
   -@beaches.each do |beach|
@@ -20,6 +24,11 @@
             %h4=link_to beach.name, beach_path(beach), class: "blue-link"
             %p=beach.description.truncate(100)
             %p.ar= link_to '>>詳細', beach_path(beach)
+            -if beach.tags.present?
+              -beach.tags.each do |tag|
+                %p.tag-block
+                  = link_to tag.name, "?tag_id=#{tag.id}", {class: 'index-tag'}
+
   .ar= paginate @beaches
 -else
   %p 該当する海は見つかりませんでした。

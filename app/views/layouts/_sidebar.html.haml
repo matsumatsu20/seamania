@@ -9,6 +9,13 @@
     %li= link_to '愛知の海(1)', '/beaches?prefecture_id=23'
     %li= link_to '三重の海(3)', '/beaches?prefecture_id=24'
 
+  %h3.mb20 タグから探す
+  -@tags.each do |tag|
+    -# = link_to %span.sidebar-tag=tag.name
+    %p.tag-block
+      = link_to tag.name, "/beaches?tag_id=#{tag.id}", {class: 'index-tag'}
+
+
     -if Rails.env.production?
       %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
       / サイドバー

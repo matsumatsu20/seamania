@@ -93,6 +93,19 @@ p {
   color: #06a8d7 !important;
 }
 
+// タグ周りの設定
+p.tag-block {
+  display: inline-block;
+  a {
+    &.index-tag {
+      background-color: #06a8d7;
+      color: #fff;
+      padding: 7px;
+      font-size: 8px;
+    }
+  }
+}
+
 // footer周りの設定
 footer {
   background-color: #06a8d7;
