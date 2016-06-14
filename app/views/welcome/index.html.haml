@@ -8,6 +8,13 @@
         .thumbnail.img-responsive.thumb-top
           =link_to image_tag(beach.photos.first.url , alt: beach.name), beach_path(beach)
           %p.source_thumb= link_to "出典:#{beach.photos.first.source&.truncate(30)}", beach.photos.first.source
+-if Rails.env.production?
+  .adsense.only-sp
+    %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
+    / レスポンシブ広告
+    %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-format" => "auto", "data-ad-slot" => "4339666512", :style => "display:block"}
+    :javascript
+      (adsbygoogle = window.adsbygoogle || []).push({});
 %section
   %h2.futura.mb20 Whats New
   .ar= paginate @new_arrival
