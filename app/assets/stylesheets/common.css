@@ -182,3 +182,8 @@ div.hr hr { display:none; }
 .ime_inactive{ime-mode: inactive;}
 /* 半角英数に固定 */
 .ime_disabled{ime-mode: disabled;}
+
+
+.bk-blue {background-color: #06a8d7 !important;}
+.bk-white {background-color: #fff !important;}
+.bd-white {border-color: #fff !important;}

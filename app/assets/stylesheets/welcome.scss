@@ -30,6 +30,16 @@
   }
 }
 
+@media (min-width: 768px) {
+  .only-sp {
+    display: none;
+  }
+}
+
+.top-collapse-sp {
+  margin: 10px 30px;
+}
+
 .badge-red {
   display: inline-block;
   min-width: 10px;

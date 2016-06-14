@@ -20,38 +20,41 @@
 
 
   %body
-    .navbar.navbar-default.navbar-static-top
-      .container
-        %a.navbar-brand.logo(href="/") Seamania
-        .navbar-collapse.collapse.navbar-responsive-collapse
-          %ul.nav.navbar-nav
-            -# %li= link_to "Link 1", "/path1"
-            -# %li= link_to "Link 2", "/path2"
-            -# %li= link_to "Link 3", "/path3"
-            -# %li= link_to "Link 3", "/path3"
-    - if controller_name == "welcome"
-      .jumbotron
+    %header
+      .navbar.navbar-default.navbar-static-top
         .container
-          %h1
-            海、集めています。
+          %button.bk-blue.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse")
+            %span.icon-bar.bk-white
+            %span.icon-bar.bk-white
+            %span.icon-bar.bk-white
+          %a.navbar-brand.logo(href="/") Seamania
+        %br
+        .collapse.navbar-responsive-collapse.only-sp.top-collapse-sp
+          %h3 都道府県から探す
+          %ul.nav.navbar-nav
+            %li= link_to '神奈川の海(7)', '/beaches?prefecture_id=14'
+            %li= link_to '千葉の海(4)', '/beaches?prefecture_id=12'
+            %li= link_to '茨城の海(1)', '/beaches?prefecture_id=8'
+            %li= link_to '静岡の海(7)', '/beaches?prefecture_id=22'
+            %li= link_to '愛知の海(1)', '/beaches?prefecture_id=23'
+            %li= link_to '三重の海(3)', '/beaches?prefecture_id=24'
+
+          %h3.mb20 タグから探す
+          -@tags.each do |tag|
+            %p.tag-block
+              = link_to tag.name, "/beaches?tag_id=#{tag.id}", {class: 'index-tag'}
+
+      - if controller_name == "welcome"
+        .jumbotron
+          .container
+            %h1
+              海、集めています。
 
     .container
       .row
         .col-lg-9.col-md-9.col-sm-9
           -if Rails.env.production?
             .adsense
-              -# %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-              -# / スマホバナー
-              -# %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "5617923315", :style => "display:inline-block;width:320px;height:100px"}
-              -# :javascript
-              -#   (adsbygoogle = window.adsbygoogle || []).push({});
-
-              -# %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
-              -# / メインバナー
-              -# %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-slot" => "9469274116", :style => "display:inline-block;width:728px;height:90px"}
-              -# :javascript
-              -#   (adsbygoogle = window.adsbygoogle || []).push({});
-
               %script{:async => "", :src => "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
               / レスポンシブ広告
               %ins.adsbygoogle{"data-ad-client" => "ca-pub-5763028102391342", "data-ad-format" => "auto", "data-ad-slot" => "4339666512", :style => "display:block"}
