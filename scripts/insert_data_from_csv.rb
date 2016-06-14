@@ -11,7 +11,12 @@ class InsertDataFromCsv < Thor
 
       ActiveRecord::Base.transaction do
         # Beachの作成
-        beach = Beach.new
+        beach = if Beach.exists?(id: row[0])
+          Beach.find(row[0])
+        else
+          Beach.new
+        end
+
         beach.id           = row[0].presence
         beach.name         = row[1].strip.presence
         beach.description  = row[2].strip.presence
