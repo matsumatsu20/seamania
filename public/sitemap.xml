@@ -8,111 +8,6 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/1</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/2</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/3</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/?page=2</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/?page=3</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/22</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches?tag_id=1</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches?tag_id=4</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/21</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/20</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches?tag_id=3</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches?tag_id=7</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/19</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/18</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/17</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/16</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches?tag_id=8</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/15</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches?tag_id=2</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/14</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://seamania.info/beaches/13</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
   <loc>http://seamania.info/beaches?prefecture_id=14</loc>
   <priority>0.8</priority>
   <changefreq>weekly</changefreq>
@@ -143,6 +38,26 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
+  <loc>http://seamania.info/beaches?tag_id=1</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches?tag_id=2</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches?tag_id=3</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches?tag_id=4</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://seamania.info/beaches?tag_id=5</loc>
   <priority>0.8</priority>
   <changefreq>weekly</changefreq>
@@ -153,32 +68,92 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/12</loc>
-  <priority>0.7</priority>
+  <loc>http://seamania.info/beaches?tag_id=7</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/11</loc>
-  <priority>0.7</priority>
+  <loc>http://seamania.info/beaches?tag_id=8</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/10</loc>
-  <priority>0.7</priority>
+  <loc>http://seamania.info/beaches/1</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/9</loc>
-  <priority>0.7</priority>
+  <loc>http://seamania.info/beaches/2</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/8</loc>
-  <priority>0.7</priority>
+  <loc>http://seamania.info/beaches/3</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/7</loc>
+  <loc>http://seamania.info/?page=2</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/?page=3</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/27</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/26</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/25</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/24</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/23</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/22</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/21</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/20</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/19</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/18</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/4</loc>
   <priority>0.7</priority>
   <changefreq>weekly</changefreq>
 </url>
@@ -188,17 +163,37 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
+  <loc>http://seamania.info/beaches/7</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/8</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://seamania.info/beaches/5</loc>
   <priority>0.7</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches/4</loc>
+  <loc>http://seamania.info/beaches/9</loc>
   <priority>0.7</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches?page=2tag_id=1</loc>
+  <loc>http://seamania.info/beaches/11</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/12</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/13</loc>
   <priority>0.7</priority>
   <changefreq>weekly</changefreq>
 </url>
@@ -208,12 +203,42 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://seamania.info/beaches?page=3</loc>
-  <priority>0.6</priority>
+  <loc>http://seamania.info/beaches/15</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/16</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/14</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/10</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches/17</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches?page=2tag_id=1</loc>
+  <priority>0.7</priority>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://seamania.info/beaches?page=2</loc>
+  <priority>0.6</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://seamania.info/beaches?page=3</loc>
   <priority>0.6</priority>
   <changefreq>weekly</changefreq>
 </url>
