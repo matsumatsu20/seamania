@@ -18,15 +18,15 @@ class InsertDataFromCsv < Thor
         end
 
         beach.id           = row[0].presence
-        beach.name         = row[1].strip.presence
-        beach.description  = row[2].strip.presence
-        beach.address      = row[3].strip.presence
+        beach.name         = row[1]&.strip
+        beach.description  = row[2]&.strip
+        beach.address      = row[3]&.strip
         beach.latitude     = row[5].presence
         beach.longitude    = row[6].presence
-        beach.parking      = row[7].strip.presence
-        beach.phone_number = row[8].strip.presence
-        beach.shower       = row[9].strip.presence
-        beach.site_url     = row[10].strip.presence
+        beach.parking      = row[7]&.strip
+        beach.phone_number = row[8]&.strip
+        beach.shower       = row[9]&.strip
+        beach.site_url     = row[10]&.strip
         beach.save!
 
         # 都道府県の関連付け
