@@ -35,6 +35,7 @@ group :development do
   gem 'spring'
   gem "turnip"
   gem 'bullet'
+  gem 'rubocop'
 end
 
 group :test do
